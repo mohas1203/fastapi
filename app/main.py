@@ -29,4 +29,4 @@ app.include_router(vote.router)
 # Gateway route
 @app.get("/", response_class=HTMLResponse)
 def gateway():
-    return "<h1>API GATEWAY<h1>"
+    return "<h1><strong>API GATEWAY</strong></h1>"
