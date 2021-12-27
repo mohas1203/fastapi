@@ -10,7 +10,7 @@ from app.config import settings
 oauth2_scheme = OAuth2PasswordBearer("login")
 
 SECRETY_KEY = settings.secret_key
-ALGORITHM = settings.signing_algorithm
+ALGORITHM = settings.algorithm
 ACCESS_TOKEN_EXPIRE_MINUTES = settings.access_token_expire_min
 
 
