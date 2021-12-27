@@ -6,7 +6,13 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      - name: pulling git repo
+      - name: Pulling Git Repo
         uses: actions/checkout@v2
-      - name: hello shaheed
-        run: echo "hello shaheed"
+      - name: Setting Up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.9"
+      - name: Upgrade pip
+        run: python -m pip install --upgrade pip
+      - name: Install all dependencies
+        run: pip install -r requirements.txt
