@@ -3,3 +3,4 @@
 venv/
 __pycache__
 fastapi.session.sql
+.pytest_cache
