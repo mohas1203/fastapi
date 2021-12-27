@@ -4,7 +4,7 @@ from sqlalchemy.orm.relationships import foreign
 from sqlalchemy.sql.expression import null, text
 from sqlalchemy.sql.schema import ForeignKey
 from sqlalchemy.sql.sqltypes import TIMESTAMP
-from .database import Base
+from app.database import Base
 from sqlalchemy import Column, Integer, String, Boolean
 
 
