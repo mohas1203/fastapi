@@ -19,7 +19,7 @@ idna==3.3
 importlib-metadata==4.10.0
 importlib-resources==5.4.0
 iniconfig==1.1.1
-Mako==1.1.6
+Mako==1.2.2
 MarkupSafe==2.0.1
 packaging==21.3
 passlib==1.7.4
